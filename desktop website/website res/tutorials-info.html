@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>
+   Smartphones
+  </title>
+  <link href="../stylesheet res/main code.css" rel="stylesheet" />
+  <link href="../stylesheet res/navbar-and-b2t.css" rel="stylesheet"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ </head>
+ <body>
+  <div id="navbar">
+   <ul class="horizontal" id="nav">
+    <a href="../website res/main code.html">
+     <img id="logo" src="../image res/alltech banner.png"/>
+    </a>
+    <div id="navlinks">
+     <li>
+      <a href="../website res/smartphones.html">
+       Smartphones
+      </a>
+     </li>
+     <li>
+      <a href="../website res/computers.html">
+       Computers
+      </a>
+     </li>
+     <li>
+      <a href="../website res/apps.html">
+       Epic App Battles of History
+      </a>
+     </li>
+     <li>
+      <a href="../website res/tutorials-genericinfo.html">
+       Tutorials
+      </a>
+     </li>
+    </div>
+   </ul>
+  </div>
+  <div id="images">
+    <div id="firstRow">
+      <a href="../articles/UbuntuWin10.html">
+       <img align="center" height="648" src="../image res/UbuntuWin10.png"/>
+      </a>
+    </div>
+  </div>
+  <button id="BackToTop" onclick="topFunction()">
+   <strong>
+    Back to top
+   </strong>
+  </button>
+  <script>
+   $("#BackToTop").hide();
+        $(function () {
+          $(window).scroll(function () {
+			      if ($(this).scrollTop() > 10) {
+				      $('#BackToTop').fadeIn();
+			      } else {
+				      $('#BackToTop').fadeOut();
+			      }
+		      });
+		      $('#BackToTop').click(function () {
+			      $('body,html').animate({
+				      scrollTop: 0
+			      }, 800);
+			      return false;
+		      });
+	      });
+  </script>
+ </body>
+</html>

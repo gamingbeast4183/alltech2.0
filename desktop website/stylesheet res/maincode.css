@@ -1,0 +1,48 @@
+#firstRow > a > img {
+  margin-top: 80px;
+}
+
+#secondRow > a > img {
+  margin-top: 10px;
+}
+
+#images > * > * > img {
+  border: 7px solid black;
+  padding: 10px;
+  margin-left: 10px;
+  float: left;
+  height: 287px;
+}
+
+#images {
+  float: center;
+  margin-left: 30px;
+  margin-right: 100px;
+}
+
+/*
+#iPhoneX {
+  float: left;
+  height: 300px;
+}
+#iPhone8 {
+  float: left;
+  height: 300px;
+}
+#Launchers {
+  float: left;
+  height: 300px;
+}
+#RazerPhone {
+  float: left;
+  height: 300px;
+}
+#LGV30 {
+  float: left;
+  height: 300px;
+}
+#UbuntuWin10 {
+  float: left;
+  height: 300px;
+}
+*/
